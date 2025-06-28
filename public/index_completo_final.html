@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Claviculário Digital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f9fc;
+      color: #222;
+    }
+    header {
+      background-color: #d3ecff;
+      padding: 20px;
+      border-bottom: 4px solid #3399ff;
+    }
+    header h1 {
+      margin: 0;
+      color: #004c99;
+    }
+    header p {
+      margin: 5px 0 10px;
+    }
+    header strong {
+      display: block;
+      margin-bottom: 10px;
+    }
+    nav a {
+      margin-right: 15px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    .alert {
+      color: red;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    .alert-icon {
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      text-align: center;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Claviculário Digital da Prevenção</h1>
+    <p>Controle absoluto de chaves e armários com segurança, organização e tecnologia.</p>
+    <strong>Gerenciado por Ryan Coelho – Gerente de Prevenção</strong>
+    <nav>
+      <a href="#">Painel</a>
+      <a href="#">Chaves</a>
+      <a href="#">Armários</a>
+      <a href="#">Usuários</a>
+      <a href="#">Histórico</a>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="card">
+      <h2>Resumo Rápido</h2>
+      <p><strong>Chaves Disponíveis:</strong> 12</p>
+      <p><strong>Chaves em Uso:</strong> 3</p>
+      <p><strong>Armários Ocupados:</strong> 7</p>
+      <p class="alert"><strong>Alertas:</strong> 0 <span class="alert-icon">!</span></p>
+    </div>
+    <div class="card">
+      <h2>Em breve</h2>
+      <p>Login, controle de chaves, armários, usuários, e mais.</p>
+    </div>
+  </main>
+  <footer>
+    Desenvolvido por Ryan Coelho - 2025
+  </footer>
+</body>
+</html>
